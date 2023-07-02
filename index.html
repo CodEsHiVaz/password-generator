@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+
+        <div class="main">
+            <h2 style="text-align: center;">Password Generator</h2>
+            <div class="pases">
+                <p class="domain"></p>
+                <p class="generatedPassword">-</p>
+                <button type="button" class="copybtn">Copy Password</button>
+            </div>
+            <form class="form">
+                <div class="entpass">
+                    <label for="passwordLength">Enter password length</label>
+                    <input type="number" style="border-radius:16px; font-size: 18px;    padding: 0px 0px 0px 24px;"
+                        value="10" min="6" max="30" placeholder="enter password length" name="" id="passwordLength">
+                </div>
+                <div class="options">
+                    <div>
+                        <input type="checkbox" name="" id="caps">
+                        <label for="caps">Include capital Letter</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="nums">
+                        <label for="nums">Include Number </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="sym">
+                        <label for="sym">Include Symbol </label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="domain">
+                        <label for="domain">Include Domain(length excluded)</label>
+                    </div>
+
+                </div>
+                <div class="subdiv">
+                    <button type="submit">Generate Password</button>
+                </div>
+            </form>
+
+        </div>
+    </body>
+    <script src="./index.js"></script>
+
+</html>
