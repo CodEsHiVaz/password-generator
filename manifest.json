@@ -1,14 +1,19 @@
 {
-    "name": "password generator",
+    "name": "Random Password Generator",
     "version": "1.0.0",
-    "description": "password generatot application",
+    "description": "Random Password Generator Chrome Extension",
     "manifest_version": 3,
     "author": "Shivaji zirpe",
     "action": {
         "default_popup": "index.html",
-        "default_title": "password generator"
+        "default_title": "Random Password Generator"
     },
     "permissions": [
         "tabs"
-    ]
+    ],
+    "icons": {
+        "16": "6x16.png",
+        "48": "48x48.png",
+        "128": "128x128.png"
+      }
 }

@@ -107,3 +107,7 @@ input[type="number"] {
   flex-wrap: nowrap;
   flex-direction: column;
 }
+
+#passwordLength{
+    border-radius:16px; font-size: 18px; padding: 0px 0px 0px 24px;
+}
